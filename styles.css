@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Permanent+Marker&family=Roboto&display=swap');
 body{
     padding: 0;
     margin: 0;
@@ -9,7 +10,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
     
 }
@@ -17,8 +18,8 @@ body{
 /* Main content of the project */
 .content{
     background-color: white;
-    width: 415px;
-    height: 211px;
+    width: 40%;
+    height: 300px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     padding: 10px;
@@ -26,4 +27,22 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     
+}
+p{
+    font-family: 'Roboto', sans-serif;
+
+}
+#row{
+    font-weight: normal;
+    margin: 1.4rem;
+}
+.btn{
+    width: 100%;
+    padding: 5px;
+    background-color: #1B9CFC;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
 }
