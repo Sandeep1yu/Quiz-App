@@ -61,7 +61,8 @@ const submitQuiz = ()=>{
     if(ans === data.correct){
         right++;
 
-    }else{
+    }
+    else{
         wrong++;
     }
     index++;
@@ -84,4 +85,6 @@ const reset = ()=>{
 }
 //Initial commit.
 loadInputs();
+
+
 
